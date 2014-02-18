@@ -1,0 +1,197 @@
+﻿/*
+CSS for Dragon Force Fan Site
+*/
+
+
+body {
+   font-family: arial, sans-serif;
+   background-color: #a8a8a8;
+   padding: 0;
+   margin: 0;
+}
+
+
+li {
+   font-weight: bold;
+   font-size: normal;
+   list-style-type: none;
+}
+
+
+a {
+   color: black;
+}
+
+
+a:link {
+   color: gold;
+}
+
+
+a:visited {
+   color: #00ffff;
+}
+
+
+a:link img {
+   color: none;
+   border: none;
+}
+
+
+a:visited img {
+   color: none;
+   border: none;
+}
+
+
+#nav {
+   width: 170px;
+   height: 448px;
+   background: black url(images/backgroundimages/crest.jpg) bottom no-repeat;
+   float: left;
+   border-right: 1px solid gold;
+   border-bottom: 1px solid gold;
+}
+
+
+#navgoldark {
+   width: 170px;
+   height: 200px;
+   background: #888888;
+   float: right;
+   border: 1px solid gold;
+   margin-top: 1em;
+   margin-right: 1em;
+   font-size: small;
+}
+
+
+#navgoldark li {
+   list-style: disc;
+}
+
+
+#nav, #bodycontent {
+   top: 150px;
+}
+
+
+#bodycontent {
+   margin-left: 200px;
+}
+
+
+#header {
+   width: 100%;
+   height: 150px;
+   border-bottom: 1px solid gold;
+   background: black;
+}
+
+
+#header.goldark {
+   width: 100%;
+   height: 150px;
+   border-bottom: 1px solid gold;
+   background: black url(images/backgroundimages/goldarkheader.jpg) no-repeat right;
+}
+
+
+#header.mikhal {
+   width: 100%;
+   height: 150px;
+   border-bottom: 1px solid gold;
+   background: black url(images/backgroundimages/mikhalheader.jpg) no-repeat right;
+}
+
+
+#header.wein {
+   width: 100%;
+   height: 150px;
+   border-bottom: 1px solid gold;
+   background: black url(images/backgroundimages/weinheader.jpg) no-repeat right;
+}
+
+
+#header.teiris {
+   width: 100%;
+   height: 150px;
+   border-bottom: 1px solid gold;
+   background: black url(images/backgroundimages/teirisheader.jpg) no-repeat right;
+}
+
+
+#header.leon {
+   width: 100%;
+   height: 150px;
+   border-bottom: 1px solid gold;
+   background: black url(images/backgroundimages/leonheader.jpg) no-repeat right;
+}
+
+
+#header.gongos {
+   width: 100%;
+   height: 150px;
+   border-bottom: 1px solid gold;
+   background: black url(images/backgroundimages/gongosheader.jpg) no-repeat right;
+}
+
+
+#header.junon {
+   width: 100%;
+   height: 150px;
+   border-bottom: 1px solid gold;
+   background: black url(images/backgroundimages/junonheader.jpg) no-repeat right;
+}
+
+
+#header.reinhart {
+   width: 100%;
+   height: 150px;
+   border-bottom: 1px solid gold;
+   background: black url(images/backgroundimages/reinhartheader.jpg) no-repeat right;
+}
+
+
+h1 {
+   font-size: x-large;
+   font-family: "comic sans ms", arial, sans;
+   text-align: center;
+   color: #a8a8a8;
+   padding-top: 2em;
+   padding-bottom: .2em;
+   padding-left: .4em;
+   margin: 0;
+   margin-right: 12em;
+}
+
+
+#bodycontent p {
+   text-align: center;
+}
+
+
+.intro {
+   margin: 2em 0 3em 0;
+   font-size: large;
+}
+
+
+p.navigation {
+   padding-left: 1em;
+   font-weight: bold;
+}
+
+
+#header img {
+   float: left;
+}
+
+
+h2 {
+   font-size: x-large;
+   font-family: "comic sans ms", arial, sans;
+   text-align: center;
+   color: #000000;
+  }
